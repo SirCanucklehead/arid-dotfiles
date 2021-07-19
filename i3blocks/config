@@ -1,0 +1,59 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=false
+separator_block_width=15
+
+[greetings]
+color=#ffa661
+command=echo "Hello, $USER!"
+interval=once
+
+#[wifi]
+#command=/home/kieran/i3blocks-contrib/wifi/wifi
+#label=BELL776:
+#INTERFACE=wlp3s0
+#interval=60
+
+[memory2]
+#label= 
+command=~/i3blocks-contrib/memory2/memory2
+interval=persist
+markup=pango
+bar_chars=_▏▎▍▌▋▊▉██
+bar_size=20
+critical=50
+warning=20
+color_critical=#d9534f
+
+[time]
+label=
+command=date '+%a %m-%d-%y %l:%M:%S %p'
+interval=5
+color=#ffa661
+
+[batterybar]
+command=~/i3blocks-contrib/batterybar/batterybar
+label=bat:
+interval=5
+markup=pango
+min_width=bat: ■■■■■
+# Discharging colors low to high
+#C1=#FF0027
+#C2=#FF3B05
+#C3=#FFB923
+#C4=#FFD000
+#C5=#E4FF00
+#C6=#ADFF00
+#C7=#6DFF00
+#C8=#10BA00
+#CHARGING_COLOR=#00AFE3
+#FULL_COLOR=#FFFFFF
+#AC_COLOR=#535353
+
