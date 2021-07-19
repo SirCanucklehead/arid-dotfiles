@@ -16,7 +16,7 @@ command=echo "Hello, $USER!"
 interval=once
 
 #[wifi]
-#command=/home/kieran/i3blocks-contrib/wifi/wifi
+#command=~/i3blocks-contrib/wifi/wifi
 #label=BELL776:
 #INTERFACE=wlp3s0
 #interval=60
@@ -56,4 +56,3 @@ min_width=bat: ■■■■■
 #CHARGING_COLOR=#00AFE3
 #FULL_COLOR=#FFFFFF
 #AC_COLOR=#535353
-
