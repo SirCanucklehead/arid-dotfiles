@@ -4,7 +4,7 @@ Requires Python 3, [conky](https://github.com/brndnmtthws/conky), [i3-gaps](http
 
 ## Install 
 
-`git clone https://github.com/SirCanucklehead/dotfiles-i3/`
+`git clone https://github.com/SirCanucklehead/arid-dotfiles/`
 
 `cd arid-dotfiles`
 
