@@ -6,6 +6,6 @@ Requires Python 3, [conky](https://github.com/brndnmtthws/conky), [i3-gaps](http
 
 `git clone https://github.com/SirCanucklehead/dotfiles-i3/`
 
-`cd dotfiles-i3`
+`cd arid-dotfiles`
 
 `sh install.sh`
